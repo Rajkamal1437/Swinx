@@ -51918,7 +51918,7 @@ var ImportedComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<br>\n<br>\n<br>\n<br>\n<br>\n\n<div class=\"container-fluid\">\n\n  <div class=\"row\">\n  <div class=\"col-md-7 col-lg-7 col-sm-12 col-xs-12\" style=\"background:#fff;\">\n  <br>\n   <button mat-mini-fab color=\"primary\" style=\"margin-left:10px;\"><i class=\"material-icons\"  matTooltip=\"Save\">save</i></button>\n   <button mat-mini-fab color=\"primary\" style=\"margin-left:10px;\"><i class=\"material-icons\"  matTooltip=\"Reload\">replay</i></button>\n   <button mat-mini-fab color=\"primary\" style=\"margin-left:10px;\"><i class=\"material-icons\"  matTooltip=\"Delete Images\">grid_off</i></button>\n   <button mat-mini-fab color=\"primary\" style=\"margin-left:10px;\"><i class=\"material-icons\"  matTooltip=\"Add Images\">add_photo_alternate</i></button>\n\n    <button mat-mini-fab color=\"primary\" style=\"margin-left:10px;\"><i class=\"material-icons\"  matTooltip=\"Approve\">done</i></button>\n   <button mat-mini-fab color=\"primary\" style=\"margin-left:10px;\"><i class=\"material-icons\"  matTooltip=\"Calculate Templete\">local_hospital</i></button>\n   <button mat-mini-fab color=\"primary\" class=\"material-icons\" style=\"color:#fff; margin-left:10px;\" matTooltip=\"Park\">V</button>\n   <button mat-mini-fab color=\"primary\" style=\"margin-left:10px;\"><i class=\"material-icons\"  matTooltip=\"Delete\">delete</i></button>\n  <br>\n  <br>\n  <mat-tab-group>\n  <mat-tab label=\"Codings\">\n  <form class=\"example-form\">\n    &nbsp; &nbsp;&nbsp;<p style=\"font-weight:700; margin-left:15px;\">INVOICE</p>\n\n    <div  class=\"col-md-12 col-lg-12 col-sm-12 col-xs-12\">\n  <table class=\"example-full-width\" cellspacing=\"0\" class=\"col-md-6 col-lg-6 col-sm-12 col-xs-6\"><tr>\n    <td><mat-form-field class=\"example-full-width\" >\n      <input matInput placeholder=\"Supplier\" value=\"18\">\n    </mat-form-field></td>\n    <td><mat-form-field class=\"example-full-width\">\n      <input matInput placeholder=\"Invoice Amount\" value=\"15000\" >\n    </mat-form-field></td>\n    <td>\n    <mat-form-field>\n      <input matInput [matDatepicker]=\"picker\" placeholder=\"Invoice date \" [value]=\"date.value\">\n      <mat-datepicker-toggle matSuffix [for]=\"picker\"></mat-datepicker-toggle>\n      <mat-datepicker #picker></mat-datepicker>\n    </mat-form-field>\n  </td>\n\n  </tr>\n  <tr>\n    <td><mat-form-field class=\"example-full-width\">\n      <input matInput placeholder=\"Supplier Name \" value=\"SWINX AB\">\n  </mat-form-field></td>\n    <td><mat-form-field class=\"example-full-width\">\n      <input matInput placeholder=\"Invoice No\" value=\"154350012\">\n    </mat-form-field></td>\n    <td>\n    <mat-form-field>\n      <input matInput [matDatepicker]=\"picker2\" placeholder=\"Invoice  Due date \" [value]=\"date.value\">\n      <mat-datepicker-toggle matSuffix [for]=\"picker2\"></mat-datepicker-toggle>\n      <mat-datepicker #picker2></mat-datepicker>\n    </mat-form-field>\n  </td>\n  </tr>\n  <tr style=\"border-bottom:1px solid #cacaca;\">\n    <td><mat-form-field class=\"example-full-width\">\n      <input matInput placeholder=\"Exchange rate\" value=\"1.000\" >\n    </mat-form-field></td>\n    <td><mat-form-field class=\"example-full-width\">\n      <input matInput placeholder=\"project\" value=\"SWINX AB\" >\n    </mat-form-field></td>\n    <td><mat-form-field class=\"example-full-width\">\n      <input matInput  placeholder=\"Cost Center\" value=\"OFS TECH\" >\n    </mat-form-field></td>\n  </tr>\n\n  <p style=\"margin-top:10px;font-weight:700;\"> CERTIFIER </p>\n  <tr style=\"border-bottom:1px solid #cacaca;\">\n    <td><mat-form-field class=\"example-full-width\">\n      <input matInput placeholder=\"Certifier\" value=\"PER;RAJ;\" >\n    </mat-form-field></td>\n    <td><mat-form-field class=\"example-full-width\">\n      <input matInput placeholder=\"Approver\" value=\"CS;\" >\n    </mat-form-field></td>\n    <td>\n      <mat-slide-toggle\n              class=\"example-margin\"\n              [color]=\"primary\"\n              [checked]=\"checked\"\n              [disabled]=\"disabled\"  style=\"margin-left:30px;\">\n            Credit\n      </mat-slide-toggle>\n      <br>\n      <mat-slide-toggle\n              class=\"example-margin\"\n              [color]=\"primary\"\n              [checked]=\"checked\"\n              [disabled]=\"disabled\" style=\"margin-left:30px;\">\n            Discretion\n      </mat-slide-toggle></td>\n  </tr>\n</table>\n</div>\n</form>\n<div class=\"table\" style=\"width:95%; font-size: 14px !important;\">\n  <div class=\"tr th\" style=\"color:#fff; background-color:#2e348a;\">\n    <div class=\"td\">\n      Acc\n    </div>\n    <div class=\"td\"   style=\"flex-grow: 2;\">\n    Info\n    </div>\n    <div class=\"td\">\n        Amt\n    </div>\n    <div class=\"td\">\n      project\n    </div>\n    <div class=\"td\" >\n    Cost\n    </div>\n    <div class=\"td\">\n      Debit\n    </div>\n    <div class=\"td\">\n      Credit\n    </div>\n  </div>\n\n  <div class=\"tr\">\n    <div class=\"td\" style=\"justify-content: flex-end;\">\n      <span>1002</span>\n    </div>\n    <div class=\"td\"\n      style=\"flex-grow: 2; justify-content: center;\">\n      <span>  Stark Accounts</span>\n    </div>\n    <div class=\"td\"\n      style=\"justify-content: center;\">\n      <span>  10000.00</span>\n    </div>\n    <div class=\"td\"\n      style=\"justify-content: center;\">\n      <span>  OFS</span>\n    </div>\n    <div class=\"td\"\n      style=\"justify-content: flex-end;\">\n      <span>  VK</span>\n    </div>\n    <div class=\"td\"\n      style=\"justify-content: flex-end;\">\n      <span>  100.00</span>\n    </div>\n    <div class=\"td\"\n      style=\"justify-content: flex-end;\">\n      <span>  0.00</span>\n    </div>\n  </div>\n\n\n\n  <div class=\"tr\">\n    <div class=\"td\" style=\"justify-content: flex-end;\">\n      <span>1012</span>\n    </div>\n    <div class=\"td\"\n      style=\"flex-grow: 2; justify-content: center;\">\n      <span> Cap Accounts</span>\n    </div>\n    <div class=\"td\"\n      style=\"justify-content: center;\">\n      <span>  500.00</span>\n    </div>\n    <div class=\"td\"\n      style=\"justify-content: center;\">\n      <span>  VISMA</span>\n    </div>\n    <div class=\"td\"\n      style=\"justify-content: flex-end;\">\n      <span>  OFS</span>\n    </div>\n    <div class=\"td\"\n      style=\"justify-content: flex-end;\">\n      <span>  1200.00</span>\n    </div>\n    <div class=\"td\"\n      style=\"justify-content: flex-end;\">\n      <span>  0.00</span>\n    </div>\n  </div>\n\n\n</div>\n\n<br>\n<br>\n</mat-tab>\n<mat-tab label=\"Savings\">\n\n\n\n</mat-tab>\n</mat-tab-group>\n    </div>\n\n    <div class=\"col-md-4 col-lg-4 col-sm-12 col-xs-12\" style=\"background:#fff;\" >\n        <img src=\"/assets/img/invoice1.jpg\" width=\"350px\"/>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<br>\n<br>\n<br>\n<br>\n<br>\n\n<div class=\"container-fluid\">\n\n  <div class=\"row\">\n  <div class=\"col-md-7 col-lg-7 col-sm-12 col-xs-12\" style=\"background:#fff;\">\n  <br>\n   <button mat-mini-fab color=\"primary\" style=\"margin-left:10px;\"><i class=\"material-icons\"  matTooltip=\"Save\">save</i></button>\n   <button mat-mini-fab color=\"primary\" style=\"margin-left:10px;\"><i class=\"material-icons\"  matTooltip=\"Reload\">replay</i></button>\n   <button mat-mini-fab color=\"primary\" style=\"margin-left:10px;\"><i class=\"material-icons\"  matTooltip=\"Delete Images\">grid_off</i></button>\n   <button mat-mini-fab color=\"primary\" style=\"margin-left:10px;\"><i class=\"material-icons\"  matTooltip=\"Add Images\">add_photo_alternate</i></button>\n\n    <button mat-mini-fab color=\"primary\" style=\"margin-left:10px;\"><i class=\"material-icons\"  matTooltip=\"Approve\">done</i></button>\n   <button mat-mini-fab color=\"primary\" style=\"margin-left:10px;\"><i class=\"material-icons\"  matTooltip=\"Calculate Templete\">local_hospital</i></button>\n   <button mat-mini-fab color=\"primary\" class=\"material-icons\" style=\"color:#fff; margin-left:10px;\" matTooltip=\"Park\">V</button>\n   <button mat-mini-fab color=\"primary\" style=\"margin-left:10px;\"><i class=\"material-icons\"  matTooltip=\"Delete\">delete</i></button>\n  <br>\n  <br>\n  <mat-tab-group>\n  <mat-tab label=\"Codings\">\n  <form class=\"example-form\">\n    &nbsp; &nbsp;&nbsp;<p style=\"font-weight:700; margin-left:15px;\">INVOICE</p>\n\n    <div  class=\"col-md-12 col-lg-12 col-sm-12 col-xs-12\">\n  <table class=\"example-full-width\" cellspacing=\"0\" class=\"col-md-6 col-lg-6 col-sm-12 col-xs-6\"><tr>\n    <td><mat-form-field class=\"example-full-width\" >\n      <input matInput placeholder=\"Supplier\" value=\"18\">\n    </mat-form-field></td>\n    <td><mat-form-field class=\"example-full-width\">\n      <input matInput placeholder=\"Invoice Amount\" value=\"15000\" >\n    </mat-form-field></td>\n    <td>\n    <mat-form-field>\n      <input matInput [matDatepicker]=\"picker\" placeholder=\"Invoice date \" [value]=\"date.value\">\n      <mat-datepicker-toggle matSuffix [for]=\"picker\"></mat-datepicker-toggle>\n      <mat-datepicker #picker></mat-datepicker>\n    </mat-form-field>\n  </td>\n\n  </tr>\n  <tr>\n    <td><mat-form-field class=\"example-full-width\">\n      <input matInput placeholder=\"Supplier Name \" value=\"SWINX AB\">\n  </mat-form-field></td>\n    <td><mat-form-field class=\"example-full-width\">\n      <input matInput placeholder=\"Invoice No\" value=\"154350012\">\n    </mat-form-field></td>\n    <td>\n    <mat-form-field>\n      <input matInput [matDatepicker]=\"picker2\" placeholder=\"Invoice  Due date \" [value]=\"date.value\">\n      <mat-datepicker-toggle matSuffix [for]=\"picker2\"></mat-datepicker-toggle>\n      <mat-datepicker #picker2></mat-datepicker>\n    </mat-form-field>\n  </td>\n  </tr>\n  <tr style=\"border-bottom:1px solid #cacaca;\">\n    <td><mat-form-field class=\"example-full-width\">\n      <input matInput placeholder=\"Exchange rate\" value=\"1.000\" >\n    </mat-form-field></td>\n    <td><mat-form-field class=\"example-full-width\">\n      <input matInput placeholder=\"project\" value=\"SWINX AB\" >\n    </mat-form-field></td>\n    <td><mat-form-field class=\"example-full-width\">\n      <input matInput  placeholder=\"Cost Center\" value=\"OFS TECH\" >\n    </mat-form-field></td>\n  </tr>\n\n  <p style=\"margin-top:10px;font-weight:700;\"> CERTIFIER </p>\n  <tr style=\"border-bottom:1px solid #cacaca;\">\n    <td><mat-form-field class=\"example-full-width\" (click)=\"openDialog()\">\n      <input matInput placeholder=\"Certifier\" value=\"PER;RAJ;\" >\n    </mat-form-field></td>\n    <td><mat-form-field class=\"example-full-width\">\n      <input matInput placeholder=\"Approver\" value=\"CS;\" >\n    </mat-form-field></td>\n    <td>\n      <mat-slide-toggle\n              class=\"example-margin\"\n              [color]=\"primary\"\n              [checked]=\"checked\"\n              [disabled]=\"disabled\"  style=\"margin-left:30px;\">\n            Credit\n      </mat-slide-toggle>\n      <br>\n      <mat-slide-toggle\n              class=\"example-margin\"\n              [color]=\"primary\"\n              [checked]=\"checked\"\n              [disabled]=\"disabled\" style=\"margin-left:30px;\">\n            Discretion\n      </mat-slide-toggle></td>\n  </tr>\n</table>\n</div>\n</form>\n<div class=\"table\" style=\"width:95%; font-size: 14px !important;\">\n  <div class=\"tr th\" style=\"color:#fff; background-color:#2e348a;\">\n    <div class=\"td\">\n      Acc\n    </div>\n    <div class=\"td\"   style=\"flex-grow: 2;\">\n    Info\n    </div>\n    <div class=\"td\">\n        Amt\n    </div>\n    <div class=\"td\">\n      project\n    </div>\n    <div class=\"td\" >\n    Cost\n    </div>\n    <div class=\"td\">\n      Debit\n    </div>\n    <div class=\"td\">\n      Credit\n    </div>\n  </div>\n\n  <div class=\"tr\">\n    <div class=\"td\" style=\"justify-content: flex-end;\">\n      <span>1002</span>\n    </div>\n    <div class=\"td\"\n      style=\"flex-grow: 2; justify-content: center;\">\n      <span>  Stark Accounts</span>\n    </div>\n    <div class=\"td\"\n      style=\"justify-content: center;\">\n      <span>  10000.00</span>\n    </div>\n    <div class=\"td\"\n      style=\"justify-content: center;\">\n      <span>  OFS</span>\n    </div>\n    <div class=\"td\"\n      style=\"justify-content: flex-end;\">\n      <span>  VK</span>\n    </div>\n    <div class=\"td\"\n      style=\"justify-content: flex-end;\">\n      <span>  100.00</span>\n    </div>\n    <div class=\"td\"\n      style=\"justify-content: flex-end;\">\n      <span>  0.00</span>\n    </div>\n  </div>\n\n\n\n  <div class=\"tr\">\n    <div class=\"td\" style=\"justify-content: flex-end;\">\n      <span>1012</span>\n    </div>\n    <div class=\"td\"\n      style=\"flex-grow: 2; justify-content: center;\">\n      <span> Cap Accounts</span>\n    </div>\n    <div class=\"td\"\n      style=\"justify-content: center;\">\n      <span>  500.00</span>\n    </div>\n    <div class=\"td\"\n      style=\"justify-content: center;\">\n      <span>  VISMA</span>\n    </div>\n    <div class=\"td\"\n      style=\"justify-content: flex-end;\">\n      <span>  OFS</span>\n    </div>\n    <div class=\"td\"\n      style=\"justify-content: flex-end;\">\n      <span>  1200.00</span>\n    </div>\n    <div class=\"td\"\n      style=\"justify-content: flex-end;\">\n      <span>  0.00</span>\n    </div>\n  </div>\n\n\n</div>\n\n<br>\n<br>\n</mat-tab>\n<mat-tab label=\"Savings\">\n\n\n\n</mat-tab>\n</mat-tab-group>\n    </div>\n\n    <div class=\"col-md-4 col-lg-4 col-sm-12 col-xs-12\" style=\"background:#fff;\" >\n        <img src=\"/assets/img/invoice1.jpg\" width=\"350px\"/>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -51929,7 +51929,7 @@ module.exports = "<br>\n<br>\n<br>\n<br>\n<br>\n\n<div class=\"container-fluid\"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".mat-form-field-label-wrapper {\n  font-size: 15px;\n  color: #2e348a  !important; }\n\n.table {\n  display: flex;\n  flex-flow: column nowrap;\n  margin: 0.5rem;\n  line-height: 1.5;\n  border-bottom: 1px solid #d0d0d0;\n  flex: 1 1 auto; }\n\n.th {\n  display: flex;\n  width: 100%;\n  font-weight: 500;\n  background-color: #f2f2f2; }\n\n.th > .td {\n  white-space: normal;\n  justify-content: center; }\n\n.tr {\n  width: 100%;\n  display: flex;\n  flex-flow: row nowrap; }\n\n.td {\n  display: flex;\n  flex-flow: row nowrap;\n  flex-grow: 1;\n  flex-basis: 0;\n  padding: 1em;\n  word-break: break-word;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  min-width: 0px;\n  white-space: nowrap;\n  border-bottom: 1px solid #d0d0d0; }\n\n.th[_ngcontent-c5] {\n  display: flex;\n  width: 100%;\n  font-weight: 300;\n  background-color: #f2f2f2; }\n\n.td[_ngcontent-c5] {\n  padding: 1em; }\n\n.table[_ngcontent-c5] {\n  font-size: 13px !important;\n  border: 1px solid #efefefed; }\n\ninput.mat-input-element {\n  font-size: 14px !important;\n  margin-top: -.0625em; }\n\n.mat-form-field {\n  margin: 3px !important; }\n\n.table[_ngcontent-c5][_ngcontent-c5] {\n  border: 1px solid #efefefed;\n  width: 95%; }\n\n@media (min-width: 992px) {\n  .col-lg-4 {\n    margin-left: 25px;\n    flex: 0 0 33.33333333%;\n    max-width: 33.33333333%; }\n  .col-lg-7 {\n    margin-left: 30px;\n    flex: 0 0 58.33333333%;\n    max-width: 58.33333333%; } }\n"
+module.exports = "/* width */\n::-webkit-scrollbar {\n  width: 10px; }\n/* Track */\n::-webkit-scrollbar-track {\n  background: #f1f1f1; }\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #888; }\n/* Handle on hover */\n::-webkit-scrollbar-thumb:hover {\n  background: #555; }\n.mat-form-field-label-wrapper {\n  font-size: 15px;\n  color: #2e348a  !important; }\n.table {\n  display: flex;\n  flex-flow: column nowrap;\n  margin: 0.5rem;\n  line-height: 1.5;\n  border-bottom: 1px solid #d0d0d0;\n  flex: 1 1 auto; }\n.th {\n  display: flex;\n  width: 100%;\n  font-weight: 500;\n  background-color: #f2f2f2; }\n.th > .td {\n  white-space: normal;\n  justify-content: center; }\n.tr {\n  width: 100%;\n  display: flex;\n  flex-flow: row nowrap; }\n.td {\n  display: flex;\n  flex-flow: row nowrap;\n  flex-grow: 1;\n  flex-basis: 0;\n  padding: 1em;\n  word-break: break-word;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  min-width: 0px;\n  white-space: nowrap;\n  border-bottom: 1px solid #d0d0d0; }\n.th[_ngcontent-c5] {\n  display: flex;\n  width: 100%;\n  font-weight: 300;\n  background-color: #f2f2f2; }\n.td[_ngcontent-c5] {\n  padding: 1em; }\n.table[_ngcontent-c5] {\n  font-size: 13px !important;\n  border: 1px solid #efefefed; }\ninput.mat-input-element {\n  font-size: 14px !important;\n  margin-top: -.0625em; }\n.mat-form-field {\n  margin: 3px !important; }\n.table[_ngcontent-c5][_ngcontent-c5] {\n  border: 1px solid #efefefed;\n  width: 95%; }\n@media (min-width: 992px) {\n  .col-lg-4 {\n    margin-left: 25px;\n    flex: 0 0 33.33333333%;\n    max-width: 33.33333333%; }\n  .col-lg-7 {\n    margin-left: 30px;\n    flex: 0 0 58.33333333%;\n    max-width: 58.33333333%; } }\n"
 
 /***/ }),
 
@@ -51937,14 +51937,16 @@ module.exports = ".mat-form-field-label-wrapper {\n  font-size: 15px;\n  color: 
 /*!**********************************************************!*\
   !*** ./src/app/invoicedetail/invoicedetail.component.ts ***!
   \**********************************************************/
-/*! exports provided: InvoicedetailComponent */
+/*! exports provided: InvoicedetailComponent, invoicedetailpopup */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "InvoicedetailComponent", function() { return InvoicedetailComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "invoicedetailpopup", function() { return invoicedetailpopup; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -51954,13 +51956,29 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
 
 
 var InvoicedetailComponent = /** @class */ (function () {
-    function InvoicedetailComponent() {
+    function InvoicedetailComponent(dialog) {
+        this.dialog = dialog;
         this.date = new _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormControl"](new Date());
         this.serializedDate = new _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormControl"]((new Date()).toISOString());
     }
+    InvoicedetailComponent.prototype.openDialog = function () {
+        var _this = this;
+        var dialogRef = this.dialog.open(invoicedetailpopup, {
+            width: '450px',
+            data: { CertifierName: this.CertifierName, Certifier: this.Certifier }
+        });
+        dialogRef.afterClosed().subscribe(function (result) {
+            console.log('The dialog was closed');
+            _this.CertifierName = result;
+        });
+    };
     InvoicedetailComponent.prototype.ngOnInit = function () {
     };
     InvoicedetailComponent = __decorate([
@@ -51969,12 +51987,42 @@ var InvoicedetailComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./invoicedetail.component.html */ "./src/app/invoicedetail/invoicedetail.component.html"),
             styles: [__webpack_require__(/*! ./invoicedetail.component.scss */ "./src/app/invoicedetail/invoicedetail.component.scss")]
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [_angular_material__WEBPACK_IMPORTED_MODULE_2__["MatDialog"]])
     ], InvoicedetailComponent);
     return InvoicedetailComponent;
 }());
 
+var invoicedetailpopup = /** @class */ (function () {
+    function invoicedetailpopup(dialogRef, data) {
+        this.dialogRef = dialogRef;
+        this.data = data;
+    }
+    invoicedetailpopup.prototype.onNoClick = function () {
+        this.dialogRef.close();
+    };
+    invoicedetailpopup = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'invoicedetailpopup',
+            template: __webpack_require__(/*! ./invoicedetail.popup.html */ "./src/app/invoicedetail/invoicedetail.popup.html"),
+        }),
+        __param(1, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_2__["MAT_DIALOG_DATA"])),
+        __metadata("design:paramtypes", [_angular_material__WEBPACK_IMPORTED_MODULE_2__["MatDialogRef"], Object])
+    ], invoicedetailpopup);
+    return invoicedetailpopup;
+}());
 
+
+
+/***/ }),
+
+/***/ "./src/app/invoicedetail/invoicedetail.popup.html":
+/*!********************************************************!*\
+  !*** ./src/app/invoicedetail/invoicedetail.popup.html ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\r\n<div class=\"popupdiv\">\r\n <h1 mat-dialog-title>  CERTIFIER </h1>\r\n<div mat-dialog-content>\r\n  <mat-form-field>\r\n    <input matInput value=\"PER;RAJ;\">\r\n  </mat-form-field>\r\n\r\n\r\n\r\n  <div class=\"table-responsive\">\r\n      <table class=\"table\">\r\n          <thead class=\" text-primary\" style=\"color: #fff !important; background-color: #2e348a;\">\r\n             <th>\r\n             <mat-checkbox class=\"example-margin\"  color=\"primary\"  ></mat-checkbox>\r\n             </th>\r\n              <th>\r\n                  Approver Code\r\n              </th>\r\n              <th>\r\n                  Approver Name\r\n              </th>\r\n          </thead>\r\n          <tbody>\r\n              <tr>\r\n                <td>\r\n                <mat-checkbox class=\"example-margin\" color=\"primary\" ></mat-checkbox>\r\n              </td>\r\n                  <td>\r\n                    RAJ\r\n                  </td>\r\n                  <td>\r\n                    Rajkamal\r\n                  </td>\r\n              </tr>\r\n              <tr>\r\n                <td>\r\n                <mat-checkbox class=\"example-margin\" color=\"primary\"></mat-checkbox>\r\n              </td>\r\n                  <td>\r\n                    RAM\r\n                  </td>\r\n                  <td>\r\n                    Ramanathan\r\n                  </td>\r\n              </tr>\r\n              <tr>\r\n                <td>\r\n                <mat-checkbox class=\"example-margin\" color=\"primary\" ></mat-checkbox>\r\n              </td>\r\n                  <td>\r\n                    PER\r\n                  </td>\r\n                  <td>\r\n                    PER ARRONSON\r\n                  </td>\r\n              </tr>\r\n              <tr>\r\n                <td>\r\n                <mat-checkbox class=\"example-margin\" color=\"primary\" ></mat-checkbox>\r\n              </td>\r\n                  <td>\r\n                    HAL\r\n                  </td>\r\n                  <td>\r\n                    HALLIL\r\n                  </td>\r\n              </tr>\r\n              <tr>\r\n                <td>\r\n                <mat-checkbox class=\"example-margin\" color=\"primary\" ></mat-checkbox>\r\n              </td>\r\n                  <td>\r\n                    CS\r\n                  </td>\r\n                  <td>\r\n                    CERTIFIER SOURCE\r\n                  </td>\r\n              </tr>\r\n              <tr>\r\n                <td>\r\n                <mat-checkbox class=\"example-margin\" color=\"primary\" ></mat-checkbox>\r\n              </td>\r\n                  <td>\r\n                   XIA\r\n                  </td>\r\n                  <td>\r\n                    OFS\r\n                  </td>\r\n              </tr>\r\n</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n<div mat-dialog-actions>\r\n  <button mat-button (click)=\"onNoClick()\">Cancel</button>\r\n  <button mat-button [mat-dialog-close]=\"data.CertifierName\" cdkFocusInitial>OK</button>\r\n</div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -52056,6 +52104,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
+
 var AdminLayoutModule = /** @class */ (function () {
     function AdminLayoutModule() {
     }
@@ -52079,8 +52128,10 @@ var AdminLayoutModule = /** @class */ (function () {
                 _angular_material__WEBPACK_IMPORTED_MODULE_30__["MatTooltipModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_30__["MatTabsModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_30__["MatStepperModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_30__["MatSlideToggleModule"]
+                _angular_material__WEBPACK_IMPORTED_MODULE_30__["MatSlideToggleModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_30__["MatDialogModule"]
             ],
+            entryComponents: [_invoicedetail_invoicedetail_component__WEBPACK_IMPORTED_MODULE_29__["invoicedetailpopup"]],
             declarations: [
                 _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_5__["DashboardComponent"],
                 _user_profile_user_profile_component__WEBPACK_IMPORTED_MODULE_6__["UserProfileComponent"],
@@ -52106,7 +52157,8 @@ var AdminLayoutModule = /** @class */ (function () {
                 _company_company_component__WEBPACK_IMPORTED_MODULE_26__["CompanyComponent"],
                 _user_user_component__WEBPACK_IMPORTED_MODULE_27__["UserComponent"],
                 _createtemplate_createtemplate_component__WEBPACK_IMPORTED_MODULE_28__["CreatetemplateComponent"],
-                _invoicedetail_invoicedetail_component__WEBPACK_IMPORTED_MODULE_29__["InvoicedetailComponent"]
+                _invoicedetail_invoicedetail_component__WEBPACK_IMPORTED_MODULE_29__["InvoicedetailComponent"],
+                _invoicedetail_invoicedetail_component__WEBPACK_IMPORTED_MODULE_29__["invoicedetailpopup"]
             ]
         })
     ], AdminLayoutModule);

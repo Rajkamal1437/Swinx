@@ -42,7 +42,7 @@ module.exports = webpackAsyncContext;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "\r\n\r\n.arrow_sec{\r\n\tposition:absolute;\r\n\ttop:55%;\r\n\tleft:55%;\r\n    border:  1.5px solid rgb(45,51,137);\r\n    border-top: 15px solid  rgb(45,51,137);\r\n\tmargin:-16px 0 0 -1px;\r\n\tbackground:#666;\r\n\t-webkit-animation:rotation 1s linear 0s infinite;\r\n\tanimation:rotation 1s linear 0s infinite;\r\n\t-webkit-transform-origin: center bottom;\r\n\ttransform-origin: center bottom;\r\n}\r\n.arrow_min{\r\n\tposition:absolute;\r\n\ttop:55%;\r\n\tleft:55%;\r\n    border: 2 solid rgb(45,51,137);\r\n    border-top: 11px solid rgb(45,51,137);\r\n\tmargin:-12px 0 0 -1px;\r\n\tbackground:#666;\r\n\t-webkit-animation:rotation 1s linear 0s infinite;\r\n\tanimation:rotation 1s linear 0s infinite;\r\n\t-webkit-transform-origin: center bottom;\r\n\ttransform-origin: center bottom;\r\n}\r\n@-webkit-keyframes rotation {\r\n\t0%{\r\n \t\t-webkit-transform: rotate(0deg);\r\n\t}\r\n \t100% {\r\n \t\t-webkit-transform: rotate(360deg);\r\n\t}\r\n}\r\n@keyframes rotation {\r\n\t0%{\r\n\t\t-webkit-transform: rotate(0deg);\r\n\t\t        transform: rotate(0deg);\r\n\t}\r\n\t100% {\r\n\t\t-webkit-transform: rotate(360deg);\r\n\t\t        transform: rotate(360deg);\r\n\t}\r\n}\r\n/* end vars */\r\n.preloader {\r\n  position: absolute;\r\n  width: 4em;\r\n  height: 4em;\r\n  border: transparent;\r\n  border-radius: 100%;\r\n}\r\n.preloader:before,\r\n.preloader:after {\r\n  content: '';\r\n  position: absolute;\r\n  top: 55%;\r\n  left: 55%;\r\n  margin: -.2rem 0 0 -.2rem;\r\n  border-bottom: .25rem solid rgb(45,51,137);\r\n  border-radius: .3rem;\r\n  -webkit-transform-origin: .2rem center;\r\n}\r\n.preloader:before { /* hour hand */\r\n  width: 25%;\r\n  -webkit-animation: hour 5s linear infinite;\r\n}\r\n.preloader:after { /* minute hand */\r\n  /* width: 30%; */\r\n  background-color: rgb(45,51,137);\r\n  -webkit-animation: minute .5s/4 linear infinite;\r\n}\r\n@-webkit-keyframes hour {\r\n  0%{\r\n\t\t-webkit-transform: rotate(0deg);\r\n\t\t        transform: rotate(0deg);\r\n\t}\r\n  100% {\r\n    -webkit-transform: rotate(360deg);\r\n  }\r\n}\r\n@-webkit-keyframes minute {\r\n  0%{\r\n    -webkit-transform: rotate(0deg);\r\n            transform: rotate(0deg);\r\n  }\r\n  100% {\r\n    -webkit-transform: rotate(360deg);\r\n  }\r\n}\r\n/* for demo purposes only — not required */\r\n/* for demo purposes only — not required */\r\n.preloader {\r\n  top: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n}\r\n"
 
 /***/ }),
 
@@ -53,7 +53,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<router-outlet></router-outlet>\n"
+module.exports = "<div class=\"preloader\"  *ngIf=\"loading\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" id=\"Layer_1\" x=\"0px\" y=\"0px\" width=\"65px\" height=\"62px\" viewBox=\"0 0 45 42\" enable-background=\"new 0 0 45 42\" xml:space=\"preserve\">  <image id=\"image0\" width=\"45\" height=\"42\" x=\"0\" y=\"0\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAqCAMAAAAQwSIQAAAABGdBTUEAALGPC/xhBQAAACBjSFJN AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABIFBMVEUtM4ktM4ktM4ktM4kt M4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4kt M4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4kt M4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4kt M4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4kt M4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4ktM4n///+mbKCEAAAAXnRS TlMAHlSWh1EbZu32ug8JMwN182wkSDwwwOoGn64/fhV7xsmc5zm024pLNiESq9gtzE5a0sPw/Ayl z4R44Wlgmb2xgRAHYwECBJALBQgK3if5QqgqRdUYuBcfQKrE5HJdspiNagAAAAFiS0dEX3PRUS0A AAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfiBBAAJyozv5rFAAACU0lEQVQ4y42V60LaQBCF twiGSxLlKhACaqVQrooElBqLGqy1xdrW3u2+/2N0ZneBhSyh8yeTyZfdMyfDQsjaeBHaCke2yf+F FqUQsbiW2ETqhmbu7FIeu8n1YCqUzmRzdC9PCnQWxbyatUps4xylcLHLFYHvq+RbBwYXcshoiJdH HK/aq6z5KmyKtKbVZ2m6ylfXl+HXRyGluAaX01wqGq32mr4THYZ3pdJxtLbWJvsE6c5ci9Wj5QD7 U6dA9+vizmnRnhlAk2NcfMBtckqUZklgoPRYmqX1Kh0Gw6SGi5+xdEDp+QbaHAHdw0yPUdreQJMw SkFX3kC/2UbQXDoX7iVKsWCTt8z8cZCOQz4tF4S0mfe0Ij++ul7Gm5wuEZKBqe+57k1j8dCb3Hqe TNtGFz9QAei5N7OYAO+tiCFoyoDT7+T63XsfCoGD63K6J5XvP0xU9EfuxBQuLUmGuVAhvWU+AHYD CdjTn7cIqKR5kdXRk0+QPEqjjqRKBzkH6NSBJAlJXMiAlU0lPZw5t42bfGbwLQicqOAvyKRYesmN J+a9pzCaFeIL47qiAxOF+Jb1TDHes6nGN0eJa9UnJATUJb5ij0+iYKGZ376r7bjazhfFSIkY423h x52qQfLzFz4dspOT/dZ1dh791lWwzsY1ZkilLJvfk6kfzvKTaunUs6Y4NfRh3FhmG1t9Bu+srPG0 z8qxA2lLyxX/D5pvS+dRHO0tV8MoF/6Iwl5E1U9tRFVRtIkynLOoj61kyNpwkjmJ7MefDRIcduTZ zXU6nab713ci/QMLkKcQ8dU5fwAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOC0wNC0xNlQwMDozOTo0 Mi0wNzowMMPJXzYAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTgtMDQtMTZUMDA6Mzk6NDItMDc6MDCy lOeKAAAAAElFTkSuQmCC\"/>\n  </svg>\n  <div id=\"preloader\">\n  \t\t<div class=\"arrow_sec\"></div>\n  \t\t<div class=\"arrow_min\"></div>\n  </div>\n  <p style=\"font-size:large; font-weight:700; color: rgb(45,51,137);\"> SWINX </p>\n</div>\n\n<div *ngIf=\"!loading\">\n  <router-outlet></router-outlet>\n</div>\n"
 
 /***/ }),
 
@@ -68,22 +68,57 @@ module.exports = "\n<router-outlet></router-outlet>\n"
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
 
 var AppComponent = /** @class */ (function () {
-    function AppComponent() {
+    function AppComponent(router) {
+        var _this = this;
+        this.router = router;
+        this.loading = true;
+        router.events.subscribe(function (event) {
+            _this.navigationInterceptor(event);
+        });
     }
+    // Shows and hides the loading spinner during RouterEvent changes
+    AppComponent.prototype.navigationInterceptor = function (event) {
+        var _this = this;
+        if (event instanceof _angular_router__WEBPACK_IMPORTED_MODULE_1__["NavigationStart"]) {
+            this.loading = true;
+        }
+        if (event instanceof _angular_router__WEBPACK_IMPORTED_MODULE_1__["NavigationEnd"]) {
+            setTimeout(function () {
+                _this.loading = false;
+            }, 500);
+        }
+        // Set loading state to false in both of the below events to hide the spinner in case a request fails
+        if (event instanceof _angular_router__WEBPACK_IMPORTED_MODULE_1__["NavigationCancel"]) {
+            setTimeout(function () {
+                _this.loading = false;
+            }, 500);
+        }
+        if (event instanceof _angular_router__WEBPACK_IMPORTED_MODULE_1__["NavigationError"]) {
+            setTimeout(function () {
+                _this.loading = false;
+            }, 500);
+        }
+    };
     AppComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-root',
             template: __webpack_require__(/*! ./app.component.html */ "./src/app/app.component.html"),
             styles: [__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")]
-        })
+        }),
+        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]])
     ], AppComponent);
     return AppComponent;
 }());
@@ -535,7 +570,7 @@ module.exports = ".nav li.active > a {\r\n    background-color: #2e348a;\r\n    
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"logo\">\n    <a href=\"https://www.swinx.se/swinx-scanlev/\" class=\"simple-text\">\n        <div class=\"logo-img\">\n            <img src=\"/assets/img/Swinx_Logo.png\"/>\n        </div>     <b style=\"word-spacing: 5px;\">.a SWINX SCANLEV </b>\n\n    </a>\n</div>\n<div class=\"sidebar-wrapper\">\n  <div *ngIf=\"isMobileMenu()\">\n    <form class=\"navbar-form\">\n      <span class=\"bmd-form-group\">\n        <div class=\"input-group no-border\">\n          <input type=\"text\" value=\"\" class=\"form-control\" placeholder=\"Search...\">\n          <button mat-raised-button type=\"submit\" class=\"btn btn-white btn-round btn-just-icon\">\n            <i class=\"material-icons\">search</i>\n            <div class=\"ripple-container\"></div>\n          </button>\n        </div>\n      </span>\n    </form>\n\n  </div>\n    <ul class=\"nav\">\n        <li routerLinkActive=\"active\" *ngFor=\"let menuItem of menuItems\" class=\"{{menuItem.class}} nav-item\" (click)=\"menuItem.droparrow = !menuItem.droparrow\" >\n            <a class=\"nav-link\" [routerLink]=\"[menuItem.path]\">\n                <i class=\"material-icons\">{{menuItem.icon}}</i>\n                <p>{{menuItem.title}}    <span class=\"material-icons\"  style=\"float:right;\" *ngIf=\"menuItem.dropdown\">{{!menuItem.droparrow ? 'arrow_drop_up' : 'arrow_drop_down'}}</span></p>\n            </a>\n            <ul class=\"nav\" *ngIf=\"!menuItem.droparrow\">\n                <li routerLinkActive=\"active\" *ngFor=\"let dropdown of menuItem.dropdown\" class=\"{{dropdown.class}} nav-item\">\n                    <a class=\"nav-link\" [routerLink]=\"[dropdown.path]\" style=\"margin-left:40px;\">\n                        <i class=\"material-icons\">{{dropdown.icon}}</i>\n                        <p> {{dropdown.title}}</p>\n                    </a>\n                </li>\n            </ul>\n        </li>\n    </ul>\n\n</div>\n"
+module.exports = "<div class=\"logo\">\n    <a href=\"https://www.swinx.se/swinx-scanlev/\" class=\"simple-text\">\n        <div class=\"logo-img\">\n            <img src=\"/assets/img/Swinx_Logo.png\"/>\n        </div>     <b style=\"word-spacing: 5px;\">.a SWINX SCANLEV </b>\n\n    </a>\n</div>\n<div class=\"sidebar-wrapper\">\n  <div *ngIf=\"isMobileMenu()\">\n    <form class=\"navbar-form\">\n      <span class=\"bmd-form-group\">\n        <div class=\"input-group no-border\">\n          <input type=\"text\" value=\"\" class=\"form-control\" placeholder=\"Search...\">\n          <button mat-raised-button type=\"submit\" class=\"btn btn-white btn-round btn-just-icon\">\n            <i class=\"material-icons\">search</i>\n            <div class=\"ripple-container\"></div>\n          </button>\n        </div>\n      </span>\n    </form>\n\n  </div>\n    <ul class=\"nav\">\n        <li routerLinkActive=\"active\" *ngFor=\"let menuItem of menuItems\" class=\"{{menuItem.class}} nav-item\" (click)=\"menuItem.droparrow = !menuItem.droparrow\" >\n            <a class=\"nav-link\" *ngIf=\"menuItem.path\">\n                <i class=\"material-icons\">{{menuItem.icon}}</i>  <p [routerLink]=\"[menuItem.path]\" *ngIf=\"!menuItem.dropdown\">{{menuItem.title}}</p>\n                <span [routerLink]=\"[menuItem.path]\"  *ngIf=\"menuItem.dropdown\"> {{menuItem.title}}  </span>  <span class=\"material-icons\"  style=\"display: inline-block; float:right;\" *ngIf=\"menuItem.dropdown\">{{!menuItem.droparrow ? 'arrow_drop_up' : 'arrow_drop_down'}}</span>\n            </a>\n            <a class=\"nav-link\" *ngIf=\"!menuItem.path\">\n                <i class=\"material-icons\">{{menuItem.icon}}</i>\n                <p>{{menuItem.title}}    <span class=\"material-icons\"  style=\"float:right;\" *ngIf=\"menuItem.dropdown\">{{!menuItem.droparrow ? 'arrow_drop_up' : 'arrow_drop_down'}}</span></p>\n            </a>\n            <ul class=\"nav\" *ngIf=\"!menuItem.droparrow\">\n                <li *ngFor=\"let dropdown of menuItem.dropdown\" class=\"{{dropdown.class}} nav-item\">\n                    <a class=\"nav-link\" [routerLink]=\"[dropdown.path]\" style=\"margin-left:40px;\">\n                        <i class=\"material-icons\">{{dropdown.icon}}</i>\n                        <p> {{dropdown.title}}</p>\n                    </a>\n                </li>\n            </ul>\n        </li>\n    </ul>\n\n</div>\n"
 
 /***/ }),
 
@@ -581,7 +616,7 @@ var ROUTES = [
         ]
     },
     { path: '/parked', title: 'Parked', icon: 'bubble_chart', class: '' },
-    { path: '/flow', title: 'Invoice Flow', icon: 'description', class: '', droparrow: true,
+    { title: 'Invoice Flow', icon: 'description', class: '', droparrow: true,
         dropdown: [
             { path: '/notregistered', title: 'NotRegistered', icon: 'no_sim', class: '' },
             { path: '/imported', title: 'Imported', icon: 'get_app', class: '' },
@@ -597,7 +632,7 @@ var ROUTES = [
         ]
     },
     { path: '/suppliersList', title: 'Suppliers List', icon: 'list', class: '' },
-    { path: '/Printer', title: 'Printer', icon: 'print', class: '', droparrow: true,
+    { title: 'Printer', icon: 'print', class: '', droparrow: true,
         dropdown: [
             { path: '/Projects', title: 'Projects', icon: 'P', class: '' },
             { path: '/Costcenters', title: 'CostCenters', icon: 'monetization_on', class: '' },
@@ -607,7 +642,7 @@ var ROUTES = [
             { path: '/MergeInvoice', title: 'Merge Invoice', icon: 'merge_type', class: '' },
             { path: '/ExcelExport', title: 'Excel Export', icon: 'explicit', class: '' }
         ] },
-    { path: '/Settings', title: 'Settings', icon: 'settings', class: '', droparrow: true,
+    { title: 'Settings', icon: 'settings', class: '', droparrow: true,
         dropdown: [
             { path: '/properties', title: 'properties', icon: 'settings_input_component', class: '' },
             { path: '/company', title: 'company', icon: 'card_travel', class: '' },
@@ -664,7 +699,7 @@ module.exports = "<div class=\"wrapper\">\n    <div class=\"sidebar\" data-color
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "/* width */\n::-webkit-scrollbar {\n  width: 10px; }\n/* Track */\n::-webkit-scrollbar-track {\n  background: #f1f1f1; }\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #888; }\n/* Handle on hover */\n::-webkit-scrollbar-thumb:hover {\n  background: #555; }\n"
 
 /***/ }),
 
